@@ -1,0 +1,76 @@
+body{
+  background-color: #e2d134;
+  font-family: 'Righteous', cursive;
+}
+
+
+#burgerpic{
+  width: 25%;
+  height: auto;
+  display: block;
+  margin-left: auto;
+  margin-right: auto;
+}
+
+#title{
+ 
+  font-size: 5rem;
+  font-weight: 600;
+  color: tomato;
+  display: block;
+  font-family: 'Sigmar One', cursive;
+}
+
+
+#title2 {
+  font-weight: 600;
+  color: tomato;
+  display: block;
+  font-family: 'Righteous', cursive;
+  margin-left:auto;
+  margin-right:auto;
+  text-align: center
+}
+
+form{
+color: white;
+
+
+}
+
+li {
+  padding: 5px;
+  margin: 5px;
+  background: tomato;
+  color: white;
+  border-radius: 5px;
+
+}
+
+.label {
+  font-weight: bold;
+  
+}
+
+
+
+.create-form {
+  padding: 20px;
+  margin: 5px;
+  background: tomato;
+  width: 25%;
+  border-radius:5px;
+  font-family: 'Righteous', cursive;
+  margin-left:auto;
+  margin-right:auto;
+
+}
+
+.form-group {
+  margin-bottom: 5px;
+}
+
+button{
+  align-self: right;
+}
+

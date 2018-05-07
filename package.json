@@ -1,0 +1,26 @@
+{
+  "name": "yum-burger",
+  "version": "1.0.0",
+  "description": "Express, Handlebars, MySQL Restaurant App",
+  "main": "server.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node server.js"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/marmada/yum-burger.git"
+  },
+  "keywords": [
+    "express",
+    "mysql",
+    "node.js",
+    "handlebars"
+  ],
+  "author": "MA",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/marmada/yum-burger/issues"
+  },
+  "homepage": "https://github.com/marmada/yum-burger#readme"
+}
