@@ -4,15 +4,16 @@ $(function() {
   $(".eat").on("click", function(event) {
     var id = $(this).data("id");
     var state =$(this).data("devoured");
-    var data = {
-      id :id,
-      state: state
+  
+    var burgerSt = {
+      devoured: state
     };
-
+   console.log(burgerSt)
+  
     // Send the PUT request.
-    $.ajax("/api/burgers/" + id + "/"+ state, {
+    $.ajax("/api/burgers/" + id, {
       type: "PUT",
-      data: data
+      data: burgerSt,
      
     }).then(
       function() {
