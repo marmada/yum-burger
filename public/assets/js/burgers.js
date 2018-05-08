@@ -3,18 +3,17 @@ $(function() {
 
   $(".eat").on("click", function(event) {
     var id = $(this).data("id");
-    var state =$(this).data("devoured")
-
-    var update= {
-      id: id,
-      state:state
-    }
- 
+    var state =$(this).data("devoured");
+    var data = {
+      id :id,
+      state: state
+    };
 
     // Send the PUT request.
-    $.ajax("/api/burgers/" + id, {
+    $.ajax("/api/burgers/" + id + "/"+ state, {
       type: "PUT",
-      data: update
+      data: data
+     
     }).then(
       function() {
         console.log("changed burger "+ id + "to devoured", );
@@ -31,9 +30,11 @@ $(function() {
 
     var newBurger= {
       name: $("#bn").val().trim(),
-      state:0
+      data: "0"
     
     };
+
+    
  console.log("got submit" + newBurger);
     // Send the POST request.
     $.ajax("/api/new", {
