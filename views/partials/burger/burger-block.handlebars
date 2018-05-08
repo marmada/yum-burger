@@ -2,7 +2,7 @@
 	{{burger_name}}
 
 	<button class="eat btn btn-success" data-id="{{id}}" data-devoured="{{devoured}}">
-		{{#if eat}}Devour it{{else}}Back on the Menu{{/if}}
+			{{#unless devoured}}Devour it{{else}}Yum Yum {{/unless}}
 	</button>
 	
 

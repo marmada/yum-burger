@@ -14,7 +14,7 @@
     </div>
     <div class="col-6">
       <ol>
-        {{#each burgers}} {{#if devoured}} {{> burger/burger-block eat=false}} {{/if}} {{/each}}
+        {{#each burger}} {{#if devoured}} {{> burger/burger-block eat=false}} {{/if}} {{/each}}
       </ol>
     </div>
   </div>
@@ -29,7 +29,7 @@
 
         <div class="form-group">
           <label for="bn"> </label>
-          <input type="text" id="bn" name="burger_name">
+          <input type="text" id="bn" name="name">
         </div>
 
         <button id="new" type="submit">Add Burger</button>
