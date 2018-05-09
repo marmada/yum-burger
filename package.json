@@ -22,5 +22,8 @@
   "bugs": {
     "url": "https://github.com/marmada/yum-burger/issues"
   },
-  "homepage": "https://github.com/marmada/yum-burger#readme"
+  "homepage": "https://github.com/marmada/yum-burger#readme",
+  "dependencies": {
+    "heroku": "^7.0.33"
+  }
 }
