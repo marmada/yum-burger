@@ -24,6 +24,9 @@
   },
   "homepage": "https://github.com/marmada/yum-burger#readme",
   "dependencies": {
-    "heroku": "^7.0.33"
-  }
+    "express": "^4.16.3",
+    "heroku": "^7.0.33",
+    "mysql": "^2.15.0"
+  },
+  "devDependencies": {}
 }
